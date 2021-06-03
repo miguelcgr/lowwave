@@ -109,7 +109,7 @@ h1 {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   background-color: rgb(238, 238, 238);
 }
 
@@ -173,7 +173,7 @@ body {
   font-size: 1.5em;
 }
 
-.discount {
+.discounted {
   color: gray;
   text-decoration: line-through;
   font-size: 1em;
@@ -186,7 +186,7 @@ footer {
   background-color: rgb(8, 216, 253);
   position: fixed;
   bottom: 0;
-  height: 3em;
+  height: 2em;
   width: 100%;
 }
 
@@ -261,5 +261,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+  .main {
+    width: 80%;
   }
 }
